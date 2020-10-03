@@ -32,7 +32,7 @@ else {
         resultadoMensaje = ", el resultado es un string";
     }
 
-    console.log(`Dato 1: ${dato1Parseo} + Dato 2: ${dato2Parseo} = Resultado: ${resultado} ${resultadoMensaje}`);  
+    console.log(`Dato 1 + Dato 2 = Resultado => ${dato1Parseo} + ${dato2Parseo} = ${resultado} ${resultadoMensaje}`);  
     tituloHTML.innerHTML = "RESULTADO: ";
-    resultadoHTML.innerHTML =`Dato 1: ${dato1Parseo} + Dato 2: ${dato2Parseo} = Resultado: ${resultado} ${resultadoMensaje}`; 
+    resultadoHTML.innerHTML =`Dato 1 + Dato 2 = Resultado => ${dato1Parseo} + ${dato2Parseo} = ${resultado} ${resultadoMensaje}`; 
 }

@@ -70,9 +70,13 @@ else {
     {
         menor = `Menor Persona 1: ${nombre1Parseo}, edad: ${edad1Parseo} y Persona 2: ${nombre2Parseo}, edad: ${edad2Parseo}`;
     }
-    else if (edad2Parseo == edad3Parseo && edad2Parseo < edad1Parseo)
+    else if (edad2Parseo == edad3Parseo && edad3Parseo < edad1Parseo)
     {
         menor = `Menor Persona 2: ${nombre2Parseo}, edad: ${edad2Parseo} y Persona 3: ${nombre3Parseo}, edad: ${edad3Parseo}`;
+    }
+    else if (edad1Parseo == edad3Parseo && edad3Parseo < edad2Parseo)
+    {
+        menor = `Menor Persona 1: ${nombre1Parseo}, edad: ${edad1Parseo} y Persona 3: ${nombre3Parseo}, edad: ${edad3Parseo}`;
     }
     else
     {
